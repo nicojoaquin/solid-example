@@ -20,7 +20,7 @@ export default function Filtered({ users, children }: Props) {
 
   return (
     <div className="space-y-3">
-      <FilterButtonsWithUserIcon
+      <FilterButtons
         labels={{
           filterAll: "Filter All users",
           filterUsers: "Filter kilcoole users",
